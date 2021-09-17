@@ -1,0 +1,287 @@
+body {
+   padding: 0;
+   margin: 0px;
+   box-sizing: border-box;
+}
+.navbar{
+  background: linear-gradient();
+  background-color: rgb(252, 251, 252);
+  font-family: 'Pacifico', cursive;
+     color: rgb(183, 111, 121);
+}
+.logo:hover{
+     color: black;
+}
+.nav-link{
+      margin-left: 10px;
+      margin-right: 10px;
+      padding-left: 10px;
+     font-family: 'Ovo', serif;
+     font-size: 18px;
+}
+.nav-link:hover{
+     color: black;
+}
+.search{
+     height: 40px
+     width: 80%;
+     border-radius: 50px;
+     outline: none;
+     margin-right: -30px;
+     font-family: 'Ovo', serif;
+     border: 2px solid rgb(194, 59, 34);
+}
+.btn0{
+    height: 30px;
+    width: 40%;
+    outline: none;
+    background: rgb(194, 59, 34);
+    color: white;
+    border-radius: 30px;
+    font-weight: 600;
+    font-family: 'Ovo', serif;
+}
+.carousel-item{
+  opacity: 0.95;
+}
+.title{
+  font-size: 30px;
+}
+.carousel-caption{
+    position: absolute;
+    top: 60%;
+    transform: translateY(-80%);
+}
+.carousel-caption h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(158, 66, 68),;
+}
+.carousel-caption p{
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+
+
+}
+.btn1{
+    font-family: 'Ovo', serif;
+    background-color: red;
+    border-radius: 15px;
+    height: 33px;
+    width: 100px;
+    color: white;
+    border: none;
+    outline: none;
+}
+.btn1:hover{
+  background-color: white;
+  color: rgb(207, 48, 99);
+  transition: 0.4s;
+}
+.sub{
+  background-color: grey;
+}
+.btn2{
+  width: 40%;
+}
+.banner{
+   width: 100%;
+   margin-top: 30px;
+}
+.banner_item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 265px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.category{
+  height: 40px;
+  min-width: 100px;
+  padding-left: 30px;
+  padding-right: 35px;
+}
+.carousel-inner{
+  opacity: 2;
+}
+.btn5{
+ width: 100%;
+ background-color: transparent;
+ border: none;
+ font-size: 30px;
+ font-family: 'Ovo', serif;
+ height: 37px;
+}
+.btn5:hover{
+  background-color: red;
+  color: black;
+  transition: 0.5s;
+}
+
+.category a{
+   display: block;
+   color: white;
+   text-transform: uppercase;
+   background-color:  black;
+   background-width: 22px;
+   font-size: 19px;
+   font-weight: 500;
+   text-align: center;
+   line-height: 40px;
+   border-radius: 5px;
+   width: 120%;
+}
+.category a:hover{
+     background-color: red;
+     color: black;
+     transition: 0.4s;
+}
+h1{
+   font-weight: 700;
+}
+.collection span{
+   color: green;
+   font-size: 15px;
+   font-weight: 700;
+   padding-left: 5px;
+}
+.card{
+  border: none;
+}
+.collection input{
+  position: absolute;
+  height: 45px;
+  width: 110px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  text-align: center;
+  top: 40%;
+  left: 30%;
+  opacity: 0;
+}
+.collection .card:hover input{
+  opacity: 1;
+  transition: 1s;
+}
+.collection input:hover{
+  background-color: #6c757d;
+  transition: 0.5s;
+}
+.parallex{
+ background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(https://images.pexels.com/photos/6190993/pexels-photo-6190993.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260)no-repeat;
+ background-attachment: fixed;
+ background-size: 100% 100%;
+ width: 100%;
+ height: 110%;
+}
+.parallex h1{
+ font-size: 55px;
+ font-weight: 700;
+}
+.parallex p{
+  font-size: 22px;
+}
+.btn3{
+ height: 40px;
+ width: 110px;
+ border: 2px solid white;
+ background: transparent;
+ outline: none;
+ border-radius: 4px;
+ color: white;
+}
+.btn3:hover{
+ background-color: white;
+ color: green;
+ transition: 0.3s;
+}
+.btn4{
+  height: 40px;
+  width: 110px;
+  background-color: white;
+  border: none;
+  color: green;
+  border-radius: 4px;
+}
+.btn4:hover{
+ background-color: #6c757d;
+ color: white;
+ transition: 0.3s;
+ border: none;
+}
+.product_bubble span{
+ background-color: green;
+ color: white;
+ width: 89px;
+ background-size: 10px;
+}
+.contact input{
+  height: 50px;
+  width: 90%;
+  outline: none;
+  border: none;
+  color: #808080;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 7px -4px 15px -3px rgba(0,0,0,0.75);
+ -webkit-box-shadow: 7px -4px 15px -3px rgba(0,0,0,0.75);
+ -moz-box-shadow: 7px -4px 15px -3px rgba(0,0,0,0.75);
+}
+.btn4 {
+  height: 45px;
+  width: 130px;
+  background-color: green;
+  color: white;
+  border: none;
+  outline: none;
+  pointer: cursor;
+  display: inline-block;
+}
+.banner_item p{
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+}
+.news{
+  background-color: black;
+  color: white;
+}
+.btn2{
+ height: 45.5px;
+ width: 100px;
+ background: white;
+ margin-left: -10px;
+ border: 2px solid white;
+ font-weight: 600;
+ color: green;
+}
+.news input{
+ height: 45px;
+ width: 70%;
+ border: 2px solid white;
+ outline: none;
+ background: black;
+ color: white;
+ margin-top: 20px;
+ font-weight: 600;
+}
+.news p{
+ margin: 0;
+ pointer: cursor;
+}
+.bi{
+ font-size: 1.5rem;
+ cursor: pointer;
+ padding-right: 5px;
+}
+
+
+
+
